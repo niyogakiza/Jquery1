@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <title>Jquery & Ajax 1</title>
+    <link href="style.css">
+</head>
+<body>
+<div class="container">
+    <div class="jumbotron">
+        <h1>Button Panels</h1>
+        <button class="panel-button" data-panelid="panel1">Menu</button>
+        <button  class="panel-button" data-panelid="panel2">Dessert</button>
+        <button class="panel-button" id="btn3" data-panelid="panel3">Soft Drinks</button>
+        <button class="panel-button" id="btn4" data-panelid="panel4">Alcohol</button>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-3">
+            <div id="panel1" style="display:none" class="panel panel-primary">
+                <div class="panel-heading">
+                    Menu
+                </div>
+                <div class="panel-body">
+                    content
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-3">
+            <div id="panel2" style="display:none" class="panel panel-primary">
+                <div class="panel-heading">
+                    Dessert
+                </div>
+                <div class="panel-body">
+                    content
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-3">
+            <div id="panel3" style="display:none" class="panel panel-primary">
+                <div class="panel-heading">
+                    Soft Drinks
+                </div>
+                <div class="panel-body">
+                    content
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-3">
+            <div id="panel4" style="display:none" class="panel panel-primary">
+                <div class="panel-heading">
+                    Alcohol
+                </div>
+                <div class="panel-body">
+                    content
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <ul class="list">
+        <li>one</li>
+        <li class="special">two</li>
+        <li>three</li>
+        <li>
+            <ul class="sublist">
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+            </ul>
+        </li>
+    </ul>
+
+</div>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<script src="main.js"></script>
+</body>
+</html>
